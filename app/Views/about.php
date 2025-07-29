@@ -41,9 +41,11 @@
 	</nav>
 
 	<div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container py-5">
-        <h1 class="display-5 fw-bold">About</h1>
-        
+      <div class="container py-3 text-center">
+		<img src="<?= base_url('images/logo-afifgadget.jpg') ?>" alt="Afif Gadget ID Logo" width="120">
+        <h1 class="display-5 fw-bold mt-3">Tentang Afif Gadget ID</h1>
+        <p class="lead">Toko HP terpercaya sejak 2020 — Garansi Resmi, Harga Terbaik!</p>
+		
       </div>
     </div>
 
@@ -51,23 +53,41 @@
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Siapa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h5 class="h5">Siapa Kami</h5>
+					<p>Afif Gadget ID adalah toko handphone yang berdiri sejak 2020 dan telah dipercaya oleh ribuan pelanggan di seluruh Indonesia. Kami menjual berbagai jenis HP original dengan garansi resmi, baik secara online maupun offline.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Bisa Apa Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h5 class="h5">Apa yang Kami Tawarkan</h5>
+					<p>Kami menyediakan layanan penjualan HP baru & second berkualitas, cicilan tanpa kartu kredit, tukar tambah, dan pengiriman cepat. Semua produk dijamin original dan bergaransi.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Bagaimana Aku</h5>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perferendis commodi tenetur quos ducimus repellat nulla, nam magni. Commodi iusto ad harum voluptas exercitationem facere eos earum laboriosam excepturi quas?</p>
+					<h5 class="h5">Kenapa Afif Gadget ID?</h5>
+					<p>Harga bersaing, pelayanan cepat, pilihan produk lengkap, serta promo menarik setiap minggu adalah alasan banyak orang mempercayai kami. Kepuasan pelanggan adalah prioritas utama kami.</p>
 				</div>
 			</div>
-			
+			<!-- Visi Misi -->
+			<div class="col-md-12 my-2 card">
+				<div class="card-body">
+					<h5 class="h5">Visi & Misi</h5>
+					<ul>
+					<li><strong>Visi:</strong> Menjadi toko gadget nomor satu yang terpercaya dan terjangkau untuk semua kalangan.</li>
+					<li><strong>Misi:</strong> Menyediakan produk berkualitas, pelayanan cepat, serta menghadirkan pengalaman belanja yang mudah dan aman.</li>
+					</ul>
+				</div>
+			</div>
+			<!-- Kontak -->
+			<div class="col-md-12 my-2 card text-center">
+				<div class="card-body">
+					<h5 class="h5">Hubungi Kami</h5>
+					<p>Ingin tanya stok atau promo terbaru?</p>
+					<a href="https://wa.me/6281553625141" target="_blank" class="btn btn-success">Hubungi via WhatsApp</a>
+				</div>
+			</div>
+
 		</div>
 	</div>
 	<div class="container py-4">
