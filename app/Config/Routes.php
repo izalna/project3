@@ -11,6 +11,9 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 $routes->get('/post', 'Post::index');
 $routes->get('/post/(:any)', 'Post::viewPost/$1');
+$routes->get('contact', 'Contact::index');
+$routes->post('contact/send', 'Contact::send');
+
 //Admin Post
 $routes->group('admin', function($routes){
     $routes->get('post', 'PostAdmin::index', ['filter' => 'login']);
