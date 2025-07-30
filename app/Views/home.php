@@ -41,9 +41,11 @@
 	</nav>
 
 	<div class="p-5 mb-4 bg-light rounded-3">
-      <div class="container py-5">
+		<div class="container py-5">
+			<img src="<?= base_url('images/logo-afifgadget.jpg') ?>" alt="Afif Gadget ID Logo" width="120">
         <h1 class="display-5 fw-bold">Selamat Datang di Afif Gadget ID</h1>
 		<p class="lead">"Toko HP Terlengkap dan Terpercaya!"</p>
+		
         <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
         <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
       </div>
