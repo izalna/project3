@@ -85,7 +85,7 @@
 			<div class="card-body">
 			<h5 class="card-title">iPhone 15 Pro</h5>
 			<p class="card-text">Harga mulai Rp 17.499.000 – Garansi Resmi</p>
-			<a href="https://www.gsmarena.com/apple_iphone_15_pro-12548.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
+			<a href="https://www.gsmarena.com/apple_iphone_15_pro-12557.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
 			</div>
 		</div>
 		</div>

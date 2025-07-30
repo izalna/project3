@@ -55,7 +55,7 @@
 		<div class="accordion-item">
 		<h2 class="accordion-header" id="faq1">
 			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-			Apakah semua HP yang dijual bergaransi resmi?
+			❓ Apakah semua HP yang dijual bergaransi resmi?
 			</button>
 		</h2>
 		<div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
@@ -69,7 +69,7 @@
 		<div class="accordion-item">
 		<h2 class="accordion-header" id="faq2">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-			Apakah bisa bayar di tempat (COD)?
+			💰 Apakah bisa bayar di tempat (COD)?
 			</button>
 		</h2>
 		<div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
@@ -83,7 +83,7 @@
 		<div class="accordion-item">
 		<h2 class="accordion-header" id="faq3">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-			Apakah tersedia cicilan tanpa kartu kredit?
+			💳 Apakah tersedia cicilan tanpa kartu kredit?
 			</button>
 		</h2>
 		<div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
@@ -97,7 +97,7 @@
 		<div class="accordion-item">
 		<h2 class="accordion-header" id="faq4">
 			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-			Apakah bisa tukar tambah HP lama?
+			🔁 Apakah bisa tukar tambah HP lama?
 			</button>
 		</h2>
 		<div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
@@ -107,9 +107,20 @@
 		</div>
 		</div>
 
-	</div>
+
 	</div>
 
+	<!-- Kontak -->
+			<div class="col-md-12 my-2 card text-center">
+				<div class="card-body">
+					<h5 class="h5">📞 Masih punya pertanyaan?</h5>
+					<a href="https://wa.me/6281553625141" target="_blank" class="btn btn-success">Hubungi via WhatsApp</a>
+				</div>
+			</div>
+
+	</div>
+
+	
 
 	</div>
 	<div class="container py-4">

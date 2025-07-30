@@ -81,6 +81,13 @@
     <script src="<?= base_url('js/jquery.min.js') ?>"></script>
     <script src="<?= base_url('js/bootstrap.bundle.min.js') ?>"></script>
 
+    <!-- CKEditor -->
+    <script src="https://cdn.ckeditor.com/4.21.0/standard/ckeditor.js"></script>
+    <script>
+    CKEDITOR.replace('content');
+    </script>
+
+
 </body>
 
 </html>
