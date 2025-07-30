@@ -43,6 +43,7 @@
 	<div class="p-5 mb-4 bg-light rounded-3">
       <div class="container py-5">
         <h1 class="display-5 fw-bold">Selamat Datang di Afif Gadget ID</h1>
+		<p class="lead">"Toko HP Terlengkap dan Terpercaya!"</p>
         <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
         <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
       </div>
@@ -52,19 +53,19 @@
 		<div class="row">
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Jual HP Original & Bergaransi</h5>
+					<h5 class="h5">📱 Jual HP Original & Bergaransi</h5>
 					<p>Kami menyediakan berbagai merek handphone terbaru dengan garansi resmi dan kualitas terjamin. Belanja aman dan nyaman hanya di Afif Gadget ID.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Bisa Cicilan & Bayar di Tempat</h5>
+					<h5 class="h5">💳 Bisa Cicilan & Bayar di Tempat</h5>
 					<p>Dapatkan kemudahan pembayaran melalui cicilan tanpa kartu kredit dan layanan COD (Bayar di Tempat) untuk area tertentu.</p>
 				</div>
 			</div>
 			<div class="col-md-12 my-2 card">
 				<div class="card-body">
-					<h5 class="h5">Promo & Diskon Tiap Minggu!</h5>
+					<h5 class="h5">🛍️ Promo & Diskon Tiap Minggu!</h5>
 					<p>Jangan lewatkan penawaran spesial dan potongan harga menarik setiap minggunya. Kunjungi toko kami atau lihat di marketplace.</p>
 				</div>
 			</div>

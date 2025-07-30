@@ -43,7 +43,7 @@
 
 	<div class="p-5 mb-4 bg-light rounded-3">
 	<div class="container py-5 text-center">
-		<h1 class="display-5 fw-bold">FAQ - Pertanyaan Umum</h1>
+		<h1 class="display-5 fw-bold">❓ FAQ - Pertanyaan Umum</h1>
 		<p class="lead">Berikut adalah beberapa pertanyaan yang sering ditanyakan oleh pelanggan kami.</p>
 	</div>
 	</div>

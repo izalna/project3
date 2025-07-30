@@ -43,7 +43,7 @@
 
 	<div class="p-5 mb-4 bg-light rounded-3">
       <div class="container py-5">
-        <h1 class="display-5 fw-bold">Hubungi Kami</h1>
+        <h1 class="display-5 fw-bold">📞 Hubungi Kami</h1>
 		<p class="lead">Ada pertanyaan seputar produk? Kami siap membantu Anda.</p>
         
       </div>
@@ -56,7 +56,7 @@
 		<div class="col-md-6 mb-4">
 		<div class="card h-100">
 			<div class="card-body">
-			<h5 class="card-title">🎯 Kontak Toko</h5>
+			<h5 class="card-title">📍 Kontak Toko</h5>
 			<p><strong>Nama Toko:</strong> Afif Gadget ID</p>
 			<p><strong>Alamat:</strong> Jl. Rukun Keluarga No.1, Cengkareng barat, Cengkareng, Jakarta Barat, DKI Jakarta, 11730</p>
 			<p><strong>Telepon:</strong> 0815-5362-5141</p>
