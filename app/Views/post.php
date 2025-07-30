@@ -49,14 +49,15 @@
       </div>
     </div>
 
-	<form action="<?= base_url('post/search') ?>" method="get" class="mb-4">
+
+
+	<div class="container">
+			<form action="<?= base_url('post/search') ?>" method="get" class="mb-4">
 		<div class="input-group">
 			<input type="text" name="q" class="form-control" placeholder="Cari artikel..." value="<?= esc($query ?? '') ?>">
 			<button class="btn btn-outline-secondary" type="submit">🔍 Cari</button>
 		</div>
 		</form>
-
-	<div class="container">
   <div class="row">
     <?php $no = 1; foreach ($posts as $post) : ?>
       <div class="col-md-6 mb-4">
