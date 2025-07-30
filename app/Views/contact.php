@@ -56,7 +56,7 @@
 		<div class="col-md-6 mb-4">
 		<div class="card h-100">
 			<div class="card-body">
-			<h5 class="card-title">Kontak Toko</h5>
+			<h5 class="card-title">🎯 Kontak Toko</h5>
 			<p><strong>Nama Toko:</strong> Afif Gadget ID</p>
 			<p><strong>Alamat:</strong> Jl. Rukun Keluarga No.1, Cengkareng barat, Cengkareng, Jakarta Barat, DKI Jakarta, 11730</p>
 			<p><strong>Telepon:</strong> 0815-5362-5141</p>
@@ -85,7 +85,7 @@
 			</div>
 			<?php endif; ?>
 
-			<h5 class="card-title">Formulir Pesan Cepat</h5>
+			<h5 class="card-title">📂 Formulir Pesan Cepat</h5>
 			<form action="<?= base_url('contact/send') ?>" method="post">
 				<div class="mb-3">
 				<label for="nama" class="form-label">Nama</label>
@@ -105,7 +105,7 @@
 
 			<!-- lokasi -->
 			<div class="container my-4">
-			<h5 class="text-center">Lokasi Toko Kami</h5>
+			<h5 class="text-center">🗺️ Lokasi Toko Kami</h5>
 			<div class="ratio ratio-16x9">
 				<iframe 
 				src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4484.960178220523!2d106.71949471452503!3d-6.1442272691192334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1753803112991!5m2!1sid!2sid" 

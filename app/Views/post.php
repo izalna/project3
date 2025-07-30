@@ -42,9 +42,10 @@
 
 	<div class="p-5 mb-4 bg-light rounded-3">
       <div class="container py-5">
-        <h1 class="display-5 fw-bold">Blog</h1>
+        <h1 class="display-5 fw-bold">📱 Selamat Datang di Halaman Blog Kami!</h1>
+		<p class="lead">Temukan berbagai informasi menarik, tips bermanfaat, hingga update terkini seputar dunia gadget, khususnya smartphone! Berikut beberapa konten utama yang bisa kamu nikmati di blog ini:</p>
         <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
-        <!-- <button class="btn btn-primary btn-sm" type="button">Read more</button> -->
+        
       </div>
     </div>
 
@@ -59,7 +60,9 @@
 				</div>
 			<?php endforeach ?>
 		</div>
+		<button class="btn btn-primary btn-sm" type="button">Read more</button>
 	</div>
+	
 	<div class="container py-4">
 		<footer class="pt-3 mt-4 text-muted border-top">
 			<div class="container">
@@ -67,7 +70,6 @@
 			</div>
 		</footer>
 	</div>
-
 	<!-- Jquery dan Bootsrap JS -->
 	<script src="<?= base_url(relativePath: 'js/jquery.min.js') ?>"></script>
 	<script src="<?= base_url(relativePath: 'js/bootstrap.min.js') ?>"></script>
