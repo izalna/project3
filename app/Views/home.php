@@ -74,6 +74,68 @@
 			
 		</div>
 	</div>
+
+	<div class="container my-4">
+	<h4 class="mb-3">Produk Terlaris</h4>
+	<div class="row">
+		<!-- Produk 1 -->
+		<div class="col-md-3 mb-4">
+		<div class="card h-100">
+			<img src="<?= base_url('images/iphone15.jpg') ?>" class="card-img-top" alt="iPhone 15">
+			<div class="card-body">
+			<h5 class="card-title">iPhone 15 Pro</h5>
+			<p class="card-text">Harga mulai Rp 17.499.000 – Garansi Resmi</p>
+			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			</div>
+		</div>
+		</div>
+
+		<!-- Produk 2 -->
+		<div class="col-md-3 mb-4">
+		<div class="card h-100">
+			<img src="<?= base_url('images/rog7.jpg') ?>" class="card-img-top" alt="ROG Phone 7">
+			<div class="card-body">
+			<h5 class="card-title">ASUS ROG Phone 7</h5>
+			<p class="card-text">Rp 13.999.000 – Performa Gaming Maksimal</p>
+			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			</div>
+		</div>
+		</div>
+
+		<!-- Produk 3 -->
+		<div class="col-md-3 mb-4">
+		<div class="card h-100">
+			<img src="<?= base_url('images/galaxys24.jpg') ?>" class="card-img-top" alt="Galaxy S24">
+			<div class="card-body">
+			<h5 class="card-title">Samsung Galaxy S24</h5>
+			<p class="card-text">Rp 14.499.000 – Fitur AI Tercanggih</p>
+			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			</div>
+		</div>
+		</div>
+
+		<!-- Produk 4 -->
+		<div class="col-md-3 mb-4">
+		<div class="card h-100">
+			<img src="<?= base_url('images/redminote13.jpg') ?> "class="card-img-top" alt="Redmi Note 13 Pro">
+			<div class="card-body">
+			<h5 class="card-title">Redmi Note 13 Pro</h5>
+			<p class="card-text">Rp 3.299.000 – Kamera 200MP, Harga Terjangkau</p>
+			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+
+	<div class="container my-4 text-center">
+	<div class="alert alert-warning" role="alert">
+		🎉 Promo Akhir Bulan! Dapatkan diskon hingga <strong>Rp 500.000</strong> untuk pembelian HP Android & iPhone! <a href="#promo" class="alert-link">Lihat detail promo</a>.
+	</div>
+	</div>
+
+
 	<div class="container py-4">
 		<footer class="pt-3 mt-4 text-muted border-top">
 			<div class="container">
