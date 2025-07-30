@@ -85,7 +85,7 @@
 			<div class="card-body">
 			<h5 class="card-title">iPhone 15 Pro</h5>
 			<p class="card-text">Harga mulai Rp 17.499.000 – Garansi Resmi</p>
-			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			<a href="https://www.gsmarena.com/apple_iphone_15_pro-12548.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
 			</div>
 		</div>
 		</div>
@@ -97,7 +97,7 @@
 			<div class="card-body">
 			<h5 class="card-title">ASUS ROG Phone 7</h5>
 			<p class="card-text">Rp 13.999.000 – Performa Gaming Maksimal</p>
-			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			<a href="https://www.gsmarena.com/asus_rog_phone_7-12223.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
 			</div>
 		</div>
 		</div>
@@ -109,7 +109,7 @@
 			<div class="card-body">
 			<h5 class="card-title">Samsung Galaxy S24</h5>
 			<p class="card-text">Rp 14.499.000 – Fitur AI Tercanggih</p>
-			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			<a href="https://www.gsmarena.com/samsung_galaxy_s24-12773.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
 			</div>
 		</div>
 		</div>
@@ -121,7 +121,7 @@
 			<div class="card-body">
 			<h5 class="card-title">Redmi Note 13 Pro</h5>
 			<p class="card-text">Rp 3.299.000 – Kamera 200MP, Harga Terjangkau</p>
-			<a href="#" class="btn btn-primary btn-sm">Lihat Detail</a>
+			<a href="https://www.gsmarena.com/xiaomi_redmi_note_13-12776.php" target="_blank" class="btn btn-primary btn-sm">Lihat Detail</a>
 			</div>
 		</div>
 		</div>

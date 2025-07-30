@@ -41,4 +41,20 @@ class Post extends BaseController
 
 		echo view('post_detail', $data);
 	}
+
+	public function search()
+	{
+	$query = $this->request->getGet('q');
+	$postModel = new \App\Models\PostModel();
+	$posts = $postModel
+		->like('title', $query)
+		->orLike('content', $query)
+		->findAll();
+
+	return view('post', [
+		'posts' => $posts,
+		'query' => $query
+	]);
+	}
+
 }

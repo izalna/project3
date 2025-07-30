@@ -45,23 +45,48 @@
         <h1 class="display-5 fw-bold">📱 Selamat Datang di Halaman Blog Kami!</h1>
 		<p class="lead">Temukan berbagai informasi menarik, tips bermanfaat, hingga update terkini seputar dunia gadget, khususnya smartphone! Berikut beberapa konten utama yang bisa kamu nikmati di blog ini:</p>
         <!-- <p class="col-md-8 fs-4">di laman portal berita</p> -->
-        
+
       </div>
     </div>
 
-	<div class="container">
-	<div class="row">
-		<?php $no = 1; foreach ($posts as $post) : ?>
-		<div class="col-md-12 my-2 card">
-			<div class="card-body">
-			<h5 class="h5"><?= $no ?>. <a href="/post/<?= $post['slug'] ?>"><?= $post['title'] ?></a></h5>
-			<p><?= substr($post['content'], 0, 120) ?></p>
-			</div>
+	<form action="<?= base_url('post/search') ?>" method="get" class="mb-4">
+		<div class="input-group">
+			<input type="text" name="q" class="form-control" placeholder="Cari artikel..." value="<?= esc($query ?? '') ?>">
+			<button class="btn btn-outline-secondary" type="submit">🔍 Cari</button>
 		</div>
-		<?php $no++; endforeach ?>
-	</div>
-	<button class="btn btn-primary btn-sm" type="button">Read more</button>
-	</div>
+		</form>
+
+	<div class="container">
+  <div class="row">
+    <?php $no = 1; foreach ($posts as $post) : ?>
+      <div class="col-md-6 mb-4">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <h6 class="text-muted">#<?= $no ?></h6>
+            <h5 class="card-title">
+              <a href="/post/<?= $post['slug'] ?>" class="text-decoration-none text-dark">
+                <?= $post['title'] ?>
+              </a>
+            </h5>
+			<small class="text-muted">📅 <?= date('d M Y', strtotime($post['created_at'])) ?> <small class="text-muted mb-1">📈 <?= $post['views'] ?? 0 ?> views</small></small> 
+            <p class="card-text"><?= substr(strip_tags($post['content']), 0, 120) ?>...</p>
+            <a href="/post/<?= $post['slug'] ?>"  class="btn btn-outline-primary btn-sm">Baca Selengkapnya</a>
+			<div class="mt-2">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=<?= current_url() ?>" target="_blank" class="btn btn-sm btn-outline-primary">Bagikan ke Facebook</a>
+			</div>
+			
+          </div>
+        </div>
+      </div>
+    <?php $no++; endforeach ?>
+  </div>
+
+  <!-- Tombol Read More (bisa diarahkan ke pagination atau halaman blog lainnya) -->
+  <div class="text-center my-4">
+    <a href="<?= base_url('post') ?>" class="btn btn-primary">Lihat Semua Artikel</a>
+  </div>
+</div>
+
 
 	
 	<div class="container py-4">
