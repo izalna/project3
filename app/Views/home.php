@@ -76,7 +76,7 @@
 	</div>
 
 	<div class="container my-4">
-	<h4 class="mb-3">Produk Terlaris</h4>
+	<h4 class="mb-3">🔥 Produk Terlaris</h4>
 	<div class="row">
 		<!-- Produk 1 -->
 		<div class="col-md-3 mb-4">
@@ -131,9 +131,11 @@
 
 	<div class="container my-4 text-center">
 	<div class="alert alert-warning" role="alert">
-		🎉 Promo Akhir Bulan! Dapatkan diskon hingga <strong>Rp 500.000</strong> untuk pembelian HP Android & iPhone! <a href="#promo" class="alert-link">Lihat detail promo</a>.
+		🎉 Promo Akhir Bulan! Dapatkan diskon hingga <strong>Rp 500.000</strong> untuk pembelian HP Android & iPhone! 
+		<a href="https://id.shp.ee/uithod1" class="alert-link" target="_blank" rel="noopener noreferrer">Lihat detail promo</a>.
 	</div>
 	</div>
+
 
 
 	<div class="container py-4">
